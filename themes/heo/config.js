@@ -15,12 +15,12 @@ oeconst CONFIG = {
   HERO_TITLE_1: 'Technology',
   HERO_TITLE_2: 'Insights',
   HERO_TITLE_3: 'BRANDONKIAORA.ME',
-  HERO_TITLE_4: 'It\'s a crime',
+  HERO_TITLE_4: 'Its a crime',
   HERO_TITLE_5: 'To waste a single day',
   HERO_TITLE_LINK: 'https://www.brandonkiaora.me/category/Enjoy',
 
   // 英雄区显示三个置顶分类
-  HERO_CATEGORY_1: { title: 'Technology Practice', url: 'https://www.brandonkiaora.me/category/practice' },
+  HERO_CATEGORY_1: { title: 'Technology Practice', url: '/tag/practice' },
   HERO_CATEGORY_2: { title: 'Python Showcase', url: '/tag/python' },
   HERO_CATEGORY_3: { title: 'Network Engineer', url: '/tag/network' },
 
