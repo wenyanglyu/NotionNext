@@ -5,10 +5,10 @@ const CONFIG = {
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   NOTICE_BAR: [
-    { title: 'I once crossed mountains and seas, and ventured through crowds vast', url: 'brandonkiaora.me' },
-    { title: 'All that I once possessed, in the blink of an eye, vanished like mist', url: 'brandonkiaora.me' },
-    { title: 'I once felt lost and despaired, with no direction in sight', url: 'brandonkiaora.me' },
-    { title: 'Until I realized that simplicity is the only answer in the light', url: 'brandonkiaora.me' }
+    { title: 'I once crossed mountains and seas, and ventured through crowds vast', url: '/category/practice' },
+    { title: 'All that I once possessed, in the blink of an eye, vanished like mist', url: '/category/Enjoy' },
+    { title: 'I once felt lost and despaired, with no direction in sight', url: '' },
+    { title: 'Until I realized that simplicity is the only answer in the light', url: '' }
   ],
 
   // 英雄区(首页顶部大卡)
