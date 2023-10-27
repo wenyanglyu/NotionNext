@@ -34,7 +34,7 @@ const CONFIG = {
     'Tomorrow is a mystery',
     'But today is Friday'
   ],
-  INFO_CARD_URL: 'https://www.timeanddate.com/worldclock/', // 个人资料底部按钮链接
+  INFO_CARD_URL: 'https://www.linkedin.com/in/brandon-lyu-603470195', // 个人资料底部按钮链接
 
   // 用户技能图标
   GROUP_ICONS: [
