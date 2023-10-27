@@ -1,4 +1,4 @@
-const CONFIG = {
+oeconst CONFIG = {
   HOME_BANNER_ENABLE: true,
 
   SITE_CREATE_TIME: '2023-10-27', // 建站日期，用于计算网站运行的第几天
@@ -17,7 +17,7 @@ const CONFIG = {
   HERO_TITLE_3: 'BRANDONKIAORA.ME',
   HERO_TITLE_4: 'just',
   HERO_TITLE_5: 'enjoy every day',
-  HERO_TITLE_LINK: 'https://www.brandonkiaora.me/category/Technology%20Practices',
+  HERO_TITLE_LINK: 'https://www.brandonkiaora.me/category/Enjoy',
 
   // 英雄区显示三个置顶分类
   HERO_CATEGORY_1: { title: 'Technology Practice', url: '/tag/Technology Practice' },
