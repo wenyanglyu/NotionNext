@@ -20,7 +20,7 @@ const CONFIG = {
   HERO_TITLE_LINK: 'https://www.brandonkiaora.me/category/Enjoy',
 
   // 英雄区显示三个置顶分类
-  HERO_CATEGORY_1: { title: 'Technology Practice', url: '/tag/practice' },
+  HERO_CATEGORY_1: { title: 'Technology Practice', url: 'https://www.brandonkiaora.me/category/practice' },
   HERO_CATEGORY_2: { title: 'Python Showcase', url: '/tag/python' },
   HERO_CATEGORY_3: { title: 'Network Engineer', url: '/tag/network' },
 
