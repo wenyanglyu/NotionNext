@@ -13,7 +13,7 @@ const CONFIG = {
 
   // 英雄区(首页顶部大卡)
   HERO_TITLE_1: 'Share Technology',
-  HERO_TITLE_2: 'And Cognitive Insights',
+  HERO_TITLE_2: 'Insights',
   HERO_TITLE_3: 'BRANDONKIAORA.ME',
   HERO_TITLE_4: 'best practice',
   HERO_TITLE_5: 'build website with notion and vercel',
@@ -32,10 +32,8 @@ const CONFIG = {
   INFOCARD_GREETINGS: [
     'KIA ORA',
     '🔍 Empowered by the curious mind',
-    '🤝 Fueled by the thirst for knowledge',
     '🏃 Motivated by the desire to learn',
-    '🏠 Guided by the pursuit of understanding',
-    '🤖️ Stucked by the washing machine'
+    '🤝 Fueled by the thirst for knowledge'
   ],
   INFO_CARD_URL: 'https://www.linkedin.com/in/brandon-lyu-603470195', // 个人资料底部按钮链接
 
