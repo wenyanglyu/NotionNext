@@ -12,15 +12,15 @@ const CONFIG = {
   ],
 
   // 英雄区(首页顶部大卡)
-  HERO_TITLE_1: 'Share Technology',
+  HERO_TITLE_1: 'Technology',
   HERO_TITLE_2: 'Insights',
   HERO_TITLE_3: 'BRANDONKIAORA.ME',
-  HERO_TITLE_4: 'best practice',
-  HERO_TITLE_5: 'build website with notion and vercel',
-  HERO_TITLE_LINK: 'https://brandonkiaora.me',
+  HERO_TITLE_4: 'just',
+  HERO_TITLE_5: 'enjoy every day',
+  HERO_TITLE_LINK: 'https://www.brandonkiaora.me/category/Technology%20Practices',
 
   // 英雄区显示三个置顶分类
-  HERO_CATEGORY_1: { title: 'Technology Practice', url: '/tag/practice' },
+  HERO_CATEGORY_1: { title: 'Technology Practice', url: '/tag/Technology Practice' },
   HERO_CATEGORY_2: { title: 'Python Showcase', url: '/tag/python' },
   HERO_CATEGORY_3: { title: 'Network Engineer', url: '/tag/network' },
 
@@ -31,11 +31,11 @@ const CONFIG = {
   // 右侧个人资料卡牌欢迎语，点击可自动切换
   INFOCARD_GREETINGS: [
     'KIA ORA',
-    '🔍 Empowered by the curious mind',
-    '🏃 Motivated by the desire to learn',
-    '🤝 Fueled by the thirst for knowledge'
+    'Yesterday is history',
+    'Tomorrow is a mystery',
+    'But today is Friday'
   ],
-  INFO_CARD_URL: 'https://www.linkedin.com/in/brandon-lyu-603470195', // 个人资料底部按钮链接
+  INFO_CARD_URL: 'https://www.timeanddate.com/worldclock/', // 个人资料底部按钮链接
 
   // 用户技能图标
   GROUP_ICONS: [
@@ -97,11 +97,11 @@ const CONFIG = {
     }
   ],
 
-  SOCIAL_CARD: false, // 是否显示右侧，点击加入社群按钮
-  SOCIAL_CARD_TITLE_1: '交流频道',
-  SOCIAL_CARD_TITLE_2: '加入我们的社群讨论分享',
-  SOCIAL_CARD_TITLE_3: '点击加入社群',
-  SOCIAL_CARD_URL: 'https://docs.tangly1024.com/article/how-to-question',
+  SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
+  SOCIAL_CARD_TITLE_1: 'Korchagin',
+  SOCIAL_CARD_TITLE_2: 'Join our DC Community',
+  SOCIAL_CARD_TITLE_3: 'Click me',
+  SOCIAL_CARD_URL: 'https://discord.gg/YmWaNJzF',
 
   // *****  以下配置无效，只是预留开发 ****
   // 菜单配置
