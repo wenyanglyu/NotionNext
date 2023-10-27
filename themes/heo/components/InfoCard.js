@@ -46,7 +46,7 @@ export function InfoCard(props) {
                         <Link href='https://www.linkedin.com/in/brandon-lyu-603470195'><i className='fab fa-linkedin text-xl' /></Link>
                     </div>
                     <div className='bg-indigo-400 p-2 rounded-full w-10 items-center flex justify-center transition-colors duration-200 dark:bg-yellow-500 dark:hover:bg-black hover:bg-white'>
-                        <Link href={CONFIG.INFO_CARD_URL}><i className='fab fa-github text-xl' />
+                        <Link href='https://github.com/brandon1812'><i className='fab fa-github text-xl' />
                         </Link>
                     </div>
                 </div>
