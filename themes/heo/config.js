@@ -17,10 +17,10 @@ const CONFIG = {
   HERO_TITLE_3: 'BRANDONKIAORA.ME',
   HERO_TITLE_4: 'it\'s a crime',
   HERO_TITLE_5: 'to waste a single day',
-  HERO_TITLE_LINK: 'https://www.brandonkiaora.me/category/Technology%20Practices',
+  HERO_TITLE_LINK: 'https://www.brandonkiaora.me/category/Enjoy',
 
   // 英雄区显示三个置顶分类
-  HERO_CATEGORY_1: { title: 'Technology Practice', url: '/tag/Technology Practice' },
+  HERO_CATEGORY_1: { title: 'Technology Practice', url: '/tag/practice' },
   HERO_CATEGORY_2: { title: 'Python Showcase', url: '/tag/python' },
   HERO_CATEGORY_3: { title: 'Network Engineer', url: '/tag/network' },
 
