@@ -1,4 +1,4 @@
-oeconst CONFIG = {
+const CONFIG = {
   HOME_BANNER_ENABLE: true,
 
   SITE_CREATE_TIME: '2023-10-27', // 建站日期，用于计算网站运行的第几天
@@ -15,12 +15,12 @@ oeconst CONFIG = {
   HERO_TITLE_1: 'Technology',
   HERO_TITLE_2: 'Insights',
   HERO_TITLE_3: 'BRANDONKIAORA.ME',
-  HERO_TITLE_4: 'Its a crime',
-  HERO_TITLE_5: 'To waste a single day',
-  HERO_TITLE_LINK: 'https://www.brandonkiaora.me/category/Enjoy',
+  HERO_TITLE_4: 'just',
+  HERO_TITLE_5: 'enjoy every day',
+  HERO_TITLE_LINK: 'https://www.brandonkiaora.me/category/Technology%20Practices',
 
   // 英雄区显示三个置顶分类
-  HERO_CATEGORY_1: { title: 'Technology Practice', url: '/tag/practice' },
+  HERO_CATEGORY_1: { title: 'Technology Practice', url: '/tag/Technology Practice' },
   HERO_CATEGORY_2: { title: 'Python Showcase', url: '/tag/python' },
   HERO_CATEGORY_3: { title: 'Network Engineer', url: '/tag/network' },
 
@@ -30,6 +30,7 @@ oeconst CONFIG = {
 
   // 右侧个人资料卡牌欢迎语，点击可自动切换
   INFOCARD_GREETINGS: [
+    'KIA ORA',
     'Yesterday is history',
     'Tomorrow is a mystery',
     'But today is Friday'
