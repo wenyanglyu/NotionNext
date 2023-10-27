@@ -368,7 +368,7 @@ function TodayCard({ cRef }) {
               className={'w-6 h-6 mr-2 bg-white rounded-full stroke-indigo-400'}
             />
             <div id="more" className="select-none">
-              More Recommendation
+              Empty Yourself
             </div>
           </div>
         </div>
