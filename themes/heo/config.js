@@ -7,8 +7,8 @@ const CONFIG = {
   NOTICE_BAR: [
     { title: 'I once crossed mountains and seas, and ventured through crowds vast', url: '/category/practice' },
     { title: 'All that I once possessed, in the blink of an eye, vanished like mist', url: '/category/Enjoy' },
-    { title: 'I once felt lost and despaired, with no direction in sight', url: '' },
-    { title: 'Until I realized that simplicity is the only answer in the light', url: '' }
+    { title: 'I once felt lost and despaired, with no direction in sight', url: '/category/practice' },
+    { title: 'Until I realized that simplicity is the only answer in the light', url: '/category/Enjoy'' }
   ],
 
   // 英雄区(首页顶部大卡)
