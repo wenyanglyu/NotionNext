@@ -5,9 +5,10 @@ const CONFIG = {
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   NOTICE_BAR: [
-    { title: 'Yesterday is history', url: 'brandonkiaora.me' },
-    { title: 'tomorrow is a mystery', url: 'brandonkiaora.me' },
-    { title: 'but today is a gift', url: 'brandonkiaora.me' }
+    { title: 'I once crossed mountains and seas, and ventured through crowds vast', url: 'brandonkiaora.me' },
+    { title: 'All that I once possessed, in the blink of an eye, vanished like mist', url: 'brandonkiaora.me' },
+    { title: 'I once felt lost and despaired, with no direction in sight', url: 'brandonkiaora.me' },
+    { title: 'Until I realized that simplicity is the only answer in the light', url: 'brandonkiaora.me' }
   ],
 
   // 英雄区(首页顶部大卡)
