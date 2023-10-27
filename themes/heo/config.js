@@ -15,8 +15,8 @@ const CONFIG = {
   HERO_TITLE_1: 'Technology',
   HERO_TITLE_2: 'Insights',
   HERO_TITLE_3: 'BRANDONKIAORA.ME',
-  HERO_TITLE_4: 'just',
-  HERO_TITLE_5: 'enjoy every day',
+  HERO_TITLE_4: 'it\'s a crime',
+  HERO_TITLE_5: 'to waste a single day',
   HERO_TITLE_LINK: 'https://www.brandonkiaora.me/category/Technology%20Practices',
 
   // 英雄区显示三个置顶分类
