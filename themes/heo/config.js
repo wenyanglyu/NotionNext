@@ -8,7 +8,7 @@ const CONFIG = {
     { title: 'I once crossed mountains and seas, and ventured through crowds vast', url: '/category/practice' },
     { title: 'All that I once possessed, in the blink of an eye, vanished like mist', url: '/category/Enjoy' },
     { title: 'I once felt lost and despaired, with no direction in sight', url: '/category/practice' },
-    { title: 'Until I realized that simplicity is the only answer in the light', url: '/category/Enjoy'' }
+    { title: 'Until I realized that simplicity is the only answer in the light', url: '/category/Enjoy' }
   ],
 
   // 英雄区(首页顶部大卡)
@@ -20,7 +20,7 @@ const CONFIG = {
   HERO_TITLE_LINK: 'https://www.brandonkiaora.me/category/Enjoy',
 
   // 英雄区显示三个置顶分类
-  HERO_CATEGORY_1: { title: 'Technology Practice', url: 'https://www.brandonkiaora.me/category/practice' },
+  HERO_CATEGORY_1: { title: 'Technology Practice', url: '/category/practice' },
   HERO_CATEGORY_2: { title: 'Python Showcase', url: '/tag/python' },
   HERO_CATEGORY_3: { title: 'Network Engineer', url: '/tag/network' },
 
