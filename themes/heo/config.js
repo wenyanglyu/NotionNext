@@ -23,12 +23,7 @@ const CONFIG = {
   HEO_SITE_CREATE_TIME: '2023-10-27', // 建站日期，用于计算网站运行的第几天
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
-  HEO_NOTICE_BAR: [
-    { title: 'I once crossed mountains and seas, and ventured through crowds vast', url: '/category/practice' },
-    { title: 'All that I once possessed, in the blink of an eye, vanished like mist', url: '/category/Enjoy' },
-    { title: 'I once felt lost and despaired, with no direction in sight', url: '/category/practice' },
-    { title: 'Until I realized that simplicity is the only answer in the light', url: '/category/Enjoy' }
-  ],
+  HEO_NOTICE_BAR: [],
 
   // 英雄区左右侧组件颠倒位置
   HEO_HERO_REVERSE: false,
@@ -134,7 +129,7 @@ const CONFIG = {
     }
   ],
 
-  HEO_SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
+  HEO_SOCIAL_CARD: false, // 是否显示右侧，点击加入社群按钮
   HEO_SOCIAL_CARD_TITLE_1: 'Korchagin',
   HEO_SOCIAL_CARD_TITLE_2: 'Join our DC Community',
   HEO_SOCIAL_CARD_TITLE_3: 'Click me',
