@@ -71,8 +71,8 @@ const CONFIG = {
   HEO_INFO_CARD_URL2: 'https://github.com/wenyanglyu',
   HEO_INFO_CARD_ICON2: 'fab fa-github',
   HEO_INFO_CARD_ICON_ORCID: 'fab fa-orcid',
-  HEO_INFO_CARD_URL3: 'mailto:wenyang.lyu@outlook.com',
-  HEO_INFO_CARD_TEXT3: 'Email Me',
+  HEO_INFO_CARD_URL3: '',
+  HEO_INFO_CARD_TEXT3: '',
 
   // 用户技能图标
   HEO_GROUP_ICONS: [

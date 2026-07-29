@@ -9,7 +9,7 @@ import { useEffect } from 'react'
  * @returns
  */
 export default function Live2D() {
-  const { theme, switchTheme } = useGlobal()
+  const { theme, toggleDarkMode } = useGlobal()
   const showPet = JSON.parse(siteConfig('WIDGET_PET'))
   const petLink = siteConfig('WIDGET_PET_LINK')
   const petSwitchTheme = siteConfig('WIDGET_PET_SWITCH_THEME')
@@ -36,7 +36,7 @@ export default function Live2D() {
 
   function handleClick() {
     if (petSwitchTheme) {
-      switchTheme()
+      toggleDarkMode()
     }
   }
 
