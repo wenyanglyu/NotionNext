@@ -116,6 +116,10 @@ const SEO = props => {
   const TWITTER_CREATOR = siteConfig('TWITTER_CREATOR', '', NOTION_CONFIG)
 
   const AUTHOR = siteConfig('AUTHOR')
+  const SEO_ALLOW_INDEX = siteConfig('SEO_ALLOW_INDEX', false, NOTION_CONFIG)
+  const robotsContent = SEO_ALLOW_INDEX
+    ? 'follow, index, max-snippet:-1, max-image-preview:large, max-video-preview:-1'
+    : 'noindex, nofollow'
   return (
     <Head>
       <link rel='icon' href={favicon} />
@@ -125,7 +129,7 @@ const SEO = props => {
         name='viewport'
         content='width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0'
       />
-      <meta name='robots' content='follow, index, max-snippet:-1, max-image-preview:large, max-video-preview:-1' />
+      <meta name='robots' content={robotsContent} />
       <meta charSet='UTF-8' />
       <meta name='format-detection' content='telephone=no' />
       <meta name='mobile-web-app-capable' content='yes' />

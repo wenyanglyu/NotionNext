@@ -28,6 +28,9 @@ const BLOG = {
   // RSS订阅
   ENABLE_RSS: process.env.NEXT_PUBLIC_ENABLE_RSS || false, // 是否开启RSS订阅功能
 
+  // 搜索引擎收录：false则通过 <meta name="robots"> 和 robots.txt 屏蔽所有爬虫抓取和索引，网站仍可通过直接访问URL正常打开
+  SEO_ALLOW_INDEX: process.env.NEXT_PUBLIC_SEO_ALLOW_INDEX || false,
+
   // 其它复杂配置
   // 原配置文件过长，且并非所有人都会用到，故此将配置拆分到/conf/目录下, 按需找到对应文件并修改即可
   ...require('./conf/comment.config'), // 评论插件
