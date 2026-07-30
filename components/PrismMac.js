@@ -248,39 +248,47 @@ const renderMermaid = mermaidCDN => {
   const articles = getNotionArticles()
   if (!articles || articles.length === 0) return
 
-  let hasMermaidBlocks = false
-
+  const mermaidCodeBlocks = []
   for (const article of articles) {
-    const mermaidCodeBlocks = article.querySelectorAll(
-      '.notion-code.language-mermaid'
+    mermaidCodeBlocks.push(
+      ...article.querySelectorAll('.notion-code.language-mermaid')
     )
-    for (const codeBlock of mermaidCodeBlocks) {
-      const chart = codeBlock.querySelector('code')?.textContent
-      if (!chart) continue
-      hasMermaidBlocks = true
-      let mermaidChart = codeBlock.querySelector('.mermaid')
-      if (!mermaidChart) {
-        mermaidChart = document.createElement('pre')
-        mermaidChart.className = 'mermaid'
-        mermaidChart.textContent = chart
-        codeBlock.appendChild(mermaidChart)
-      }
-    }
   }
-
-  if (!hasMermaidBlocks) return
+  // 只要页面里存在 mermaid 代码块就尝试加载，具体的代码文本此时可能还未渲染完成
+  if (mermaidCodeBlocks.length === 0) return
 
   loadExternalResource(mermaidCDN, 'js')
     .then(() => {
-      setTimeout(() => {
+      // Notion 区块内容是异步渲染的，code文本此时可能还没写入DOM，短暂重试直到拿到内容
+      const tryInjectAndRender = (attempt = 0) => {
         try {
+          let hasChart = false
+          for (const codeBlock of mermaidCodeBlocks) {
+            const chart = codeBlock.querySelector('code')?.textContent
+            if (!chart) continue
+            hasChart = true
+            let mermaidChart = codeBlock.querySelector('.mermaid')
+            if (!mermaidChart) {
+              mermaidChart = document.createElement('pre')
+              mermaidChart.className = 'mermaid'
+              mermaidChart.textContent = chart
+              codeBlock.appendChild(mermaidChart)
+            }
+          }
+          if (!hasChart) {
+            if (attempt < 10) {
+              setTimeout(() => tryInjectAndRender(attempt + 1), 100)
+            }
+            return
+          }
           const mermaid = window.mermaid
           if (!mermaid) return
           mermaid?.contentLoaded()
         } catch (err) {
           console.warn('[PrismMac] mermaid render failed:', err)
         }
-      }, 60)
+      }
+      setTimeout(() => tryInjectAndRender(), 60)
     })
     .catch(err => {
       console.warn('[PrismMac] mermaid load failed:', err)
